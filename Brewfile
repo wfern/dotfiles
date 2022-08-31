@@ -47,7 +47,10 @@ cask 'the-unarchiver'
 cask 'visual-studio-code'
 cask 'whatsapp'
 
-# Fonts
+# for react-native
+cask 'flipper'
+
+# fonts
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'

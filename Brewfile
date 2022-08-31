@@ -9,19 +9,16 @@ brew 'coreutils'
 brew 'ffmpeg'
 brew 'gh'
 brew 'git'
-brew 'gnupg'
-brew 'grep'
-brew 'mackup'
 brew 'mas'
 brew 'pkg-config'
 
 # development
+brew 'node'
 brew 'php'
 brew 'composer'
 brew 'imagemagick'
 brew 'mysql'
 brew 'nginx'
-brew 'node'
 brew 'redis'
 
 # for react-native

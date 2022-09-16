@@ -101,10 +101,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # ruby@2.7 (necessary for react-native)
-export PATH="/opt/homebrew/opt/ruby@2.7/bin:$PATH"
-export PATH="/opt/homebrew/lib/ruby/gems/2.7.0/bin:$PATH"
-export LDFLAGS="-L/opt/homebrew/opt/ruby@2.7/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/ruby@2.7/include"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export PATH="$(gem environment gemdir)/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
 
 # android
 export ANDROID_HOME="/Users/$USER/Library/Android/sdk"

@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# ruby@2.7 (necessary for react-native)
+# ruby (necessary for react-native)
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export PATH="$(gem environment gemdir)/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
@@ -111,4 +111,6 @@ export ANDROID_HOME="/Users/$USER/Library/Android/sdk"
 export ANDROID_SDK_ROOT="$ANDROID_HOME"
 export PATH="${PATH}:$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
 
-alias lavd="emulator -avd Pixel_3a_API_33_arm64-v8a"
+# open jdk
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+

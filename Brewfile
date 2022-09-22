@@ -20,6 +20,7 @@ brew 'imagemagick'
 brew 'mysql'
 brew 'nginx'
 brew 'redis'
+brew 'java'
 
 # for react-native
 brew 'watchman'

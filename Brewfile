@@ -21,6 +21,7 @@ brew 'mysql'
 brew 'nginx'
 brew 'redis'
 brew 'java'
+brew 'ios-deploy'
 
 # for react-native
 brew 'watchman'
@@ -47,6 +48,7 @@ cask 'postman'
 cask 'the-unarchiver'
 cask 'visual-studio-code'
 cask 'whatsapp'
+cask 'qbittorrent'
 
 # for react-native
 cask 'flipper'

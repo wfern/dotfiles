@@ -25,30 +25,30 @@ brew 'ios-deploy'
 
 # for react-native
 brew 'watchman'
-brew 'ruby@2.7'
-# TODO: install cocoapods with ruby@2.7.5+
+brew 'ruby'
 
 # apps
-cask 'authy'
 cask 'rectangle'
 cask 'linearmouse'
 cask 'alt-tab'
+cask 'hiddenbar'
+cask 'raycast'
+
 cask 'cold-turkey-blocker'
 cask 'google-drive'
 cask 'sequel-ace'
+cask 'navicat-for-mysql'
 cask 'bitwarden'
 cask 'discord'
-cask 'docker'
 cask 'figma'
-cask 'firefox'
 cask 'github'
-cask 'google-chrome'
 cask 'microsoft-edge'
+cask 'firefox'
 cask 'postman'
-cask 'the-unarchiver'
 cask 'visual-studio-code'
 cask 'whatsapp'
 cask 'qbittorrent'
+cask 'android-studio'
 
 # for react-native
 cask 'flipper'

@@ -100,6 +100,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias ip="ipconfig getifaddr en1"
+alias art="php artisan"
+
 # ruby
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export PATH="$(gem environment gemdir)/bin:$PATH"

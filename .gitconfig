@@ -6,3 +6,5 @@
 [user]
 	name = William Fernandes
 	email = wfernandes@live.com
+[pull]
+	ff = only

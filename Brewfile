@@ -34,7 +34,6 @@ cask 'android-studio'
 cask 'bitwarden'
 cask 'cold-turkey-blocker'
 cask 'discord'
-cask 'dockview'
 cask 'figma'
 cask 'firefox'
 cask 'google-chrome',

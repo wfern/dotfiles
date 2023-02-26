@@ -31,6 +31,7 @@ brew 'watchman'
 # apps
 cask 'alt-tab'
 cask 'android-studio'
+cask 'appcleaner'
 cask 'bitwarden'
 cask 'cold-turkey-blocker'
 cask 'discord'

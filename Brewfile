@@ -27,26 +27,30 @@ brew 'ios-deploy'
 # for react-native
 brew 'watchman'
 
+# utitility system apps
+cask 'alt-tab' # windows-like alt-tab
+cask 'appcleaner' # efficient uninstaller
+cask 'background-music' # volume selector for different apps
+cask 'karabiner-elements' # keyboard customizer
+cask 'linearmouse' # fix mouse acceleration
+cask 'notunes' # disable itunes
+cask 'openinterminal' # open terminal from finder
+cask 'raycast' # replace spotlight
+cask 'rectangle' # window management
+cask 'the-unarchiver' # compressed files extractor
+cask 'xcodes'
+
 # apps
-cask 'alt-tab'
 cask 'android-studio'
-cask 'appcleaner'
-cask 'background-music'
 cask 'bitwarden'
 cask 'cold-turkey-blocker'
 cask 'figma'
 cask 'firefox'
 cask 'google-drive'
-cask 'karabiner-elements'
-cask 'linearmouse'
 cask 'microsoft-edge'
 cask 'navicat-for-mysql'
-cask 'openinterminal'
 cask 'postman'
 cask 'qbittorrent'
-cask 'raycast'
-cask 'rectangle'
-cask 'the-unarchiver'
 cask 'visual-studio-code'
 cask 'whatsapp'
 

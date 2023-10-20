@@ -28,17 +28,21 @@ brew 'ios-deploy'
 brew 'watchman'
 
 # utitility system apps
+cask 'android-file-transfer' # android file transfer
 cask 'alt-tab' # windows-like alt-tab
 cask 'appcleaner' # efficient uninstaller
+cask 'betterdisplay' # monitor control
 cask 'background-music' # volume selector for different apps
 cask 'karabiner-elements' # keyboard customizer
 cask 'linearmouse' # fix mouse acceleration
 cask 'notunes' # disable itunes
+cask 'maccy' # clipboard manager
 cask 'openinterminal' # open terminal from finder
 cask 'raycast' # replace spotlight
 cask 'rectangle' # window management
 cask 'the-unarchiver' # compressed files extractor
-cask 'xcodes'
+cask 'vlc' # video player
+cask 'xcodes' # multiple xcode versions
 
 # apps
 cask 'android-studio'

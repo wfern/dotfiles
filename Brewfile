@@ -32,10 +32,18 @@ cask 'android-file-transfer' # android file transfer
 cask 'alt-tab' # windows-like alt-tab
 cask 'appcleaner' # efficient uninstaller
 cask 'betterdisplay' # monitor control
-cask 'background-music' # volume selector for different apps
-cask 'karabiner-elements' # keyboard customizer
+
+# It was just to mute gunbound but it adds a lot of bugs for different things
+# cask 'background-music' # volume selector for different apps
+
+# So much shit enable just to invert cmd and ctrl keys
+# cask 'karabiner-elements' # keyboard customizer
+
 cask 'linearmouse' # fix mouse acceleration
-cask 'notunes' # disable itunes
+
+# Not work
+# cask 'notunes' # disable itunes
+
 cask 'maccy' # clipboard manager
 cask 'openinterminal' # open terminal from finder
 cask 'raycast' # replace spotlight

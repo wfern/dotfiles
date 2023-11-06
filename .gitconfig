@@ -10,3 +10,5 @@
 	ff = only
 [github]
 	accesstoken = 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
+[core]
+	ignorecase = false

@@ -91,19 +91,26 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# ruby
+# Ruby
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export PATH="$(gem environment gemdir)/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
 
-# android
-export ANDROID_HOME="/Users/$USER/Library/Android/sdk"
+# Android
+export ANDROID_HOME="$HOME/Library/Android/sdk"
 export ANDROID_SDK_ROOT="$ANDROID_HOME"
-export PATH="${PATH}:$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
+export PATH=$ANDROID_HOME/emulator:$PATH
+export PATH=$ANDROID_HOME/tools:$PATH
+export PATH=$ANDROID_HOME/platform-tools:$PATH
 
-# open jdk
-export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+# Java SDK for react-native (expo) zulu11 for <= 0.72 and zullu17 for >= 0.73
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+
+# Pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -116,3 +123,5 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 alias ip="ipconfig getifaddr en1"
 alias art="php artisan"
+alias path="echo \"${PATH//:/\n}\""
+alias reset="exec zsh -l"

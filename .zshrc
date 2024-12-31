@@ -76,6 +76,21 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias ip="ipconfig getifaddr en1"
+alias art="php artisan"
+alias path="echo \"${PATH//:/\n}\""
+alias reset="exec zsh -l"
+alias sls="eza -lha"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -107,21 +122,14 @@ export PATH=$ANDROID_HOME/platform-tools:$PATH
 # Java SDK for react-native (expo) zulu11 for <= 0.72 and zullu17 for >= 0.73
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
 
+# Flashlight React Native performance tool
+export PATH="/Users/william/.flashlight/bin:$PATH"
+
 # Pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-alias ip="ipconfig getifaddr en1"
-alias art="php artisan"
-alias path="echo \"${PATH//:/\n}\""
-alias reset="exec zsh -l"
+# NVM
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm

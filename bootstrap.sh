@@ -17,10 +17,10 @@ fi
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
-ln -s $HOME/Dev/dotfiles/.zshrc $HOME/.zshrc
+ln -s $HOME/Developer/dotfiles/.zshrc $HOME/.zshrc
 
 rm -rf $HOME/.gitconfig
-ln -s $HOME/Dev/dotfiles/.gitconfig $HOME/.gitconfig
+ln -s $HOME/Developer/dotfiles/.gitconfig $HOME/.gitconfig
 
 # Update Homebrew recipes
 brew update
@@ -28,6 +28,3 @@ brew update
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
 brew bundle --file Brewfile
-
-# Install PHP extensions with PECL
-pecl install imagick redis grpc

@@ -5,31 +5,41 @@ tap 'homebrew/cask-versions'
 
 # binaries
 brew 'bash'
-brew 'coreutils'
 brew 'eza' # better ls
+brew 'jq' # json processor
 brew 'gh'
 brew 'git'
+brew 'git-quick-stats'
 brew 'pkg-config'
 
 # development
-brew 'jq' # json processor
 brew 'nvm'
 brew 'pyenv'
 brew 'ruby'
+
+# database
 brew 'redis'
 brew 'mysql'
-brew 'nginx'
-brew 'php'
-brew 'composer'
-brew 'ios-deploy'
+
+# using laravel herd
+# brew 'nginx'
+# brew 'php'
+# brew 'composer'
 
 # for react-native
 brew 'watchman'
+brew 'ios-deploy'
+
+# development casks
+cask 'herd'
+cask 'ngrok'
+cask 'zulu@17'
 
 # utitility system apps
 cask 'alt-tab' # windows-like alt-tab
 cask 'appcleaner' # efficient uninstaller
 cask 'betterdisplay' # monitor control
+cask 'hiddenbar'
 
 # PS 1: It was just to mute gunbound but it adds a lot of bugs for different things
 # PS 2: It is nice to disable bluetooth microphone to restore music quality

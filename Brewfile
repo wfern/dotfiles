@@ -50,7 +50,7 @@ cask 'background-music' # volume selector for different apps
 
 cask 'linearmouse' # fix mouse acceleration
 cask 'notunes' # disable itunes
-cask 'maccy' # clipboard manager
+# cask 'maccy' # clipboard manager
 cask 'openinterminal' # open terminal from finder
 cask 'raycast' # replace spotlight
 cask 'rectangle' # window management
@@ -68,7 +68,7 @@ cask 'qbittorrent'
 cask 'whatsapp'
 
 # fonts
-cask 'font-lato'
+# cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
 cask 'font-jetbrains-mono'
